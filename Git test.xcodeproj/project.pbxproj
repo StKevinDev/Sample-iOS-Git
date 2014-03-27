@@ -21,6 +21,7 @@
 		0A59748918E4072200FF49B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A59746B18E4072100FF49B1 /* UIKit.framework */; };
 		0A59749118E4072200FF49B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A59748F18E4072200FF49B1 /* InfoPlist.strings */; };
 		0A59749318E4072200FF49B1 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A59749218E4072200FF49B1 /* Git_testTests.m */; };
+		0A59749E18E40AC200FF49B1 /* STTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A59749D18E40AC200FF49B1 /* STTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0A59748E18E4072200FF49B1 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		0A59749018E4072200FF49B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A59749218E4072200FF49B1 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		0A59749C18E40AC200FF49B1 /* STTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTest.h; sourceTree = "<group>"; };
+		0A59749D18E40AC200FF49B1 /* STTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				0A59747D18E4072200FF49B1 /* STViewController.m */,
 				0A59747F18E4072200FF49B1 /* Images.xcassets */,
 				0A59746E18E4072100FF49B1 /* Supporting Files */,
+				0A59749C18E40AC200FF49B1 /* STTest.h */,
+				0A59749D18E40AC200FF49B1 /* STTest.m */,
 			);
 			path = "Git test";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				0A59747E18E4072200FF49B1 /* STViewController.m in Sources */,
 				0A59747418E4072100FF49B1 /* main.m in Sources */,
+				0A59749E18E40AC200FF49B1 /* STTest.m in Sources */,
 				0A59747818E4072200FF49B1 /* STAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
